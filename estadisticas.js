@@ -19,10 +19,11 @@ export const estadisticas = (data) => {
                     tiemposRespuestaPais.push(tiempoRespuesta);
                 });
 
-                paramSolicitudes(tiemposRespuestaEstado);
+                
             }
-            paramSolicitudes(tiemposRespuestaPais);
+            paramSolicitudes(tiemposRespuestaEstado);
         }
+        paramSolicitudes(tiemposRespuestaPais);
     }
 };
 
