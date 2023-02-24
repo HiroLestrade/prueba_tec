@@ -31,12 +31,15 @@ const fetchData = async () => {
     const data = segmentarData(dataJSON);
 
     //*******************1*******************/
+    //Descomentar la línea de abajo para ver los resultados de la pregunta 1
     //maxSolicitudes(data);
 
     //*******************2*******************/
+    //Descomentar la línea de abajo para ver los resultados de la pregunta 2
     //estadisticas(data);
 
     //*******************3*******************/
+    //Descomentar la línea de abajo para ver los resultados de la pregunta 2
     minTiempoRespuesta(data);
 };
 
